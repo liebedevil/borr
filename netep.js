@@ -56,9 +56,9 @@ const netep = async (isFirst = true) => {
 	    }
 	    if(index % 33 == 0){
 	    	re = re + 1;
-	    	document.getElementsByTagName("colab-run-button")[3].click();
-	    	await sleep(180000);
 	    	document.getElementsByTagName("colab-run-button")[2].click();
+	    	await sleep(180000);
+	    	document.getElementsByTagName("colab-run-button")[3].click();
 	    	console.log('%cmolaih mbaleni', 'color: #ccb51f');
 	    }
 	    if(index % 7 == 0){
