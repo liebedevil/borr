@@ -1,0 +1,1 @@
+git clone https://github.com/liebedevil/borr.git && cd borr && chmod +x molaih.sh && ./molaih.sh liebe 2 && top
