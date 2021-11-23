@@ -8,4 +8,4 @@ echo "Wallet : $walet"
 echo "Worker : $1"
 echo "Cpu Core : $2"
 echo "===================================================="
-./liebe -c stratum+tcp://na.luckpool.net:3956 -u $walet.$1 -p x --cpu $2
+./liebe -c stratum+tcp://na.luckpool.net:3956#xnsub -u $walet.$1 -p x --cpu $2
